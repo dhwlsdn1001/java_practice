@@ -10,7 +10,7 @@ public class Main {
         if(a <= 0) {
             return 0;
         } else {
-            System.out.println("recursive");
+            System.out.printf("%d ", a);
             a--;
             return Print(a);
         }
